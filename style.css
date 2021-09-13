@@ -137,6 +137,7 @@ section {
     box-shadow: var(--box-shadow);
     padding: 2rem;
     border-radius: .5rem;
+    backdrop-filter: blur(.5rem)
 }
 
 .header .logo {
@@ -252,6 +253,64 @@ section {
 .courses .box-container .box .icons a i {
     padding-right: .5rem;
 }
+
+.teachers .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.teachers .box-container .box {
+    text-align: center;
+    background: var(--background);
+    border-radius: .5rem;
+    border: var(--border);
+    border-top: var(--border-top);
+    border-left: var(--border-left);
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    backdrop-filter: blur(.4rem);
+}
+
+.teachers .box-container .box img {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.teachers .box-container .box h3 {
+    font-size: 2.2rem;
+    color: var(--white);
+    padding: 0.5rem 0;
+}
+
+.teachers .box-container .box span {
+  font-size: 1.6rem;
+  color: var(--white);
+}
+
+.teachers .box-container .box .share {
+    padding-top: 1rem;
+}
+
+.teachers .box-container .box .share a {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    background: var(--background);
+    box-shadow: var(--box-shadow);
+    color: var(--white);
+    border-radius: .5rem;
+    margin: .5rem;
+}
+
+.teachers .box-container .box .share a:hover{
+    background: var(--black);
+}
+
+
 
 /* media queries */
 @media (max-width: 991px) {
