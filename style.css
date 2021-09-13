@@ -496,6 +496,35 @@ section {
 }
 
 
+.footer{
+    text-align: center;
+}
+
+.footer .share {
+    padding: 1rem 0;
+}
+
+.footer .share a {
+    margin: 0 1rem;
+    font-size: 4rem;
+    color: var(--white);
+}
+
+.footer .share a:hover{
+    color: var(--black);
+}
+
+.footer .credit {
+    padding: 1.5rem;
+    margin: 1rem 0;
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.footer .credit span {
+    color: var(--black);
+}
+
 
 /* media queries */
 @media (max-width: 991px) {
